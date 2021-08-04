@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Beat बना</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- social media display meta tags -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <audio id="a" preload="auto">
+      <source src="sounds/cymbal-crash.mp3" type="audio/mpeg" />
+    </audio>
+    <audio id="s" preload="auto">
+      <source src="sounds/tom-2.mp3" type="audio/mpeg" />
+    </audio>
+    <audio id="d" preload="auto">
+      <source src="sounds/snare.mp3" type="audio/mpeg" />
+    </audio>
+    <audio id="j" preload="auto">
+      <source src="sounds/kick-bass.mp3" type="audio/mpeg" />
+    </audio>
+    <audio id="k" preload="auto">
+      <source src="sounds/tom-3.mp3" type="audio/mpeg" />
+    </audio>
+    <audio id="l" preload="auto">
+      <source src="sounds/crash.mp3" type="audio/mpeg" />
+    </audio>
+    <div id="container">
+      <div id="content-wrap">
+        <h1 id="title">
+          Beat<em>बना</em>
+        </h1>
+        <img id="music-scale" src="images/music-scale.svg" alt="music scale" />
+        <div class="set">
+
+          <button class="a drum">a</button>
+          <button class="s drum">s</button>
+          <button class="d drum">d</button>
+          <button class="j drum">j</button>
+          <button class="k drum">k</button>
+          <button class="l drum">l</button>
+        </div>
+        <p class="instructions">
+          Click image or press keys ( A, S, D, J, K, L ) for corresponding
+          percussion sounds.
+        </p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
